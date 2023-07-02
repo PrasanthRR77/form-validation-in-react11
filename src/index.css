@@ -1,0 +1,75 @@
+
+
+*,
+*::after,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffffff;
+  font-family: "Roboto",sans-serif;
+
+
+}
+
+.h1{
+  text-align: center;
+}
+
+.sign-up{
+  background-color: #ffffff;
+  max-width: 30rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px solid BLACK;
+  
+ 
+
+}
+
+h1{
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: RED;
+}
+
+p{
+  margin-bottom: 2rem;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem;
+
+}
+
+input{
+  padding: 0.5rem;
+  border: 1px solid gray;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+button{
+  padding: 0.5rem;
+  background-color: RED;
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+
+}
+.error-message{
+  color: red;
+  font-size: 0.9rem;
+}
